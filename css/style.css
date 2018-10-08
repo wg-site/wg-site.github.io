@@ -206,7 +206,24 @@ footer{
   	box-shadow: 0 0;
 }
 
-*:focus {
+.form__item {
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+  font-size: 12px;
+  border-radius: 5px;
+  /*width: 80%;*/
+  border: 0;
+  outline: none;  
+}
+
+.form__item input, textarea {
+  box-shadow: inset 1px 0px 5px 0px #000000;
+  padding: 7px 0;
+  padding-left: 10px;
+  width: 80%;
+}
+
+/**:focus {
   outline: none;
 }
 
@@ -288,7 +305,7 @@ footer{
 
 .inputGroup .inputBar:before {
   left: 50%;
-}
+}*/
 
 .knopka button {
   background-color: white;
@@ -357,8 +374,8 @@ footer{
 		text-align: center;
 	}	
 
-	.form{
-		margin: 0 auto;
-	}
+	.form, .adres {
+    text-align: center;
+  }
 
 }
