@@ -333,6 +333,10 @@ footer{
   box-shadow: 0 0;
 }
 
+.dopheight{
+	display: none;
+}
+
 @media screen and (max-width: 992px){
 	.title{
 		margin-bottom: 100px;
@@ -376,6 +380,10 @@ footer{
 
 	.form, .adres {
     text-align: center;
+  }
+
+  .dopheight{
+  	height: 20px;
   }
 
 }
