@@ -32,14 +32,14 @@ p{
 
 .header{
 	background: #C0A28D;
-	/*height: 100vh;*/
+	height: 100vh;
 }
 
 .topheader{
 	background: #F7F7F7;
 	text-align: center;
 	color: #C0A28D;
-	/*padding: 40px 0;*/
+	padding: 40px 0;
 }
 
 .topheader__title h3{
@@ -64,7 +64,7 @@ p{
 
 .product{
 	background: #F7F7F7;
-	/*padding: 70px 0;*/
+	padding: 70px 0;
 }
 
 .product__photo{
@@ -104,7 +104,7 @@ hr{
  .history{
 	background: url(../img/history__bg.jpg);
 	height: 500%;
-	/*background-attachment: fixed;*/
+	background-attachment: fixed;
 	background-position: center center;
 	-webkit-background-size: cover;
 	background-size: cover;
@@ -121,7 +121,7 @@ hr{
  }
 
  .column{
- 	/*padding: 140px 0;*/
+ 	padding: 140px 0;
  	background: #F7F7F7;
  }
 
@@ -141,7 +141,7 @@ hr{
 
 .examples{
 	background: #ADB0A8;
-	/*padding: 140px 0;*/
+	padding: 140px 0;
 }
 
 .examples-prev-btn{	
@@ -175,7 +175,7 @@ hr{
 }
 
 footer{
-	/*padding: 140px 0;*/
+	padding: 140px 0;
 	background: #C0A28D;
 }
 
@@ -333,10 +333,6 @@ footer{
   box-shadow: 0 0;
 }
 
-.dopheight{
-	display: none;
-}
-
 @media screen and (max-width: 992px){
 	.title{
 		margin-bottom: 100px;
@@ -382,8 +378,4 @@ footer{
     text-align: center;
   }
 
-  .dopheight{
-  	height: 20px;
   }
-
-}
