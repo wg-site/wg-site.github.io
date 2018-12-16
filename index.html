@@ -29,6 +29,23 @@
     <link rel="stylesheet" href="css/style.css">
 
     <title>wedding_glasses</title>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+ 
+<script type="text/javascript"> 
+$(function() { 
+$(window).scroll(function() { 
+if($(this).scrollTop() != 0) { 
+$('#toTop').fadeIn(); 
+} else { 
+$('#toTop').fadeOut(); 
+} 
+}); 
+$('#toTop').click(function() { 
+$('body,html').animate({scrollTop:0},800); 
+}); 
+}); 
+</script>
   </head>
   <body>
   <!-- <div id="fullpage">   -->
@@ -348,7 +365,8 @@
       </div>
     </footer> 
   <!-- </div>   -->
-
+	<div id="toTop"> ^ Наверх </div>
+  
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
