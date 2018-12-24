@@ -120,7 +120,7 @@ hr{
 
  .history{
 	background: url(../img/history__bg.jpg);
-	height: 500%;
+	height: 500px;
 	background-attachment: fixed;
 	background-position: center center;
 	-webkit-background-size: cover;
@@ -144,6 +144,7 @@ hr{
 
 .technology{
 	color: #593B41;
+	
 }
 
 .technology__title{
@@ -159,6 +160,8 @@ hr{
 .examples{
 	background: #ADB0A8;
 	padding: 140px 0;
+	height: 100vh;
+
 }
 
 .examples-prev-btn{	
@@ -169,7 +172,8 @@ hr{
 	right: -40px;
 }
 
-.examples-slider{		
+.examples-slider{
+		
 	background: #fff;	
 	padding: 30px 15px 0;
 	box-shadow: 6px 10px 18px 0 rgba(0, 0, 0, 0.30); /*0.30 это интенсивность тени, можно делать 0,15*/ 
@@ -194,11 +198,14 @@ hr{
 footer{
 	padding: 140px 0;
 	background: #C0A28D;
+	height: 100vh;
 }
 
 .avatar{
 	border-right: 1px solid #fff;
 	padding-right: 30px;
+	padding-top: 50px;
+	
 }
 
 .head-foto{
@@ -226,16 +233,16 @@ footer{
 .form__item {
   margin-bottom: 5px;
   padding-bottom: 5px;
-  font-size: 12px;
+  font-size: 15px;
   border-radius: 5px;
-  /*width: 80%;*/
   border: 0;
   outline: none;  
 }
 
 .form__item input, textarea {
   box-shadow: inset 1px 0px 5px 0px #000000;
-  padding: 7px 0;
+  font-family: 'Neucha', cursive;
+  padding: 10px 0;
   padding-left: 10px;
   width: 80%;
 }
@@ -245,10 +252,10 @@ footer{
   border: none;
   padding: 15px 0;
   margin: 0;
-  width: 290px;
+  width: 80%;
   color: #3c3c3c;
   text-transform: uppercase;
-  font-family: 'Caveat', cursive;
+  font-family: 'Neucha', cursive;
   font-size: 15px;
   border-radius: 5px;
   box-shadow: 0 6px #a1a1a1;
@@ -266,6 +273,7 @@ footer{
   box-shadow: 0 0;
 }
 
+/*button to top*/
 #toTop {
 width:100px;
 border:1px solid #ccc;
@@ -278,9 +286,10 @@ right:10px;
 cursor:pointer;
 display:none;
 color:#333;
-font-family:verdana;
+font-family: verdana;
 font-size:11px;
 }
+/*end button to top*/
 
 @media screen and (max-width: 992px){
 	.title{
@@ -328,11 +337,11 @@ font-size:11px;
 	}
 
 	.avatar{
-		border-right: none;		 
+		border-right: none;
 	}
 
 	.avatar p{
-		text-align: center;
+		text-align: center;		
 	}	
 
 	.form, .adres {
